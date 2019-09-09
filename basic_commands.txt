@@ -1,10 +1,14 @@
-…or create a new repository on the command line
+ï¿½or create a new repository on the command line
 echo "# proy-02-add-bootstrap-angular" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/sarai-malvaez-bsd/proy-02-add-bootstrap-angular.git
 git push -u origin master
-…or push an existing repository from the command line
+ï¿½or push an existing repository from the command line
 git remote add origin https://github.com/sarai-malvaez-bsd/proy-02-add-bootstrap-angular.git
 git push -u origin master	
+
+git add -A
+git commit -m 'First commit'
+git push origin master
